@@ -1,8 +1,15 @@
-# Docker RViz
+# SLAM Robot
 
-Minimum example for running RViz within a Docker container (should also work fine with other GUI applications).
+An autonomous mapping robot that uses SLAM (Simultaneous Localization and Mapping)
 
-Tested on Ubuntu 24.04.2.
+## Installation
+
+This repo has been tested on Ubuntu 24.04, but should work on any machine that can run the included Docker container.
+
+It is recommened to install the following (or equivalent for your system):
+
+- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/#installation-methods)
+- [Post-install steps](https://docs.docker.com/engine/install/linux-postinstall/) to run Docker as non-root user
 
 ## Building
 
